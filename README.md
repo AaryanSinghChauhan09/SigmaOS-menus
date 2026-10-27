@@ -1,15 +1,40 @@
-# SigmaOS-menus
+    # SigmaOS-menus
 
-Part of the SigmaOS multi-repository architecture.
+    Application menu & menu database
 
-## Principles
-- MODULARITY: Single responsibility per repository
-- LOOSE COUPLING: Minimal dependencies between repos
-- INTERFACE SEGREGATION: Clear, focused public APIs
-- DETERMINISTIC TESTING: Comprehensive test coverage
+    Part of the **SigmaOS** sovereign operating-system ecosystem — a multi-repository
+    distribution modelled on Linux Mint and Omarchy Linux. See the parent
+    [`SigmaOS`](https://github.com/AaryanSinghChauhan09/SigmaOS) repository for the
+    full component index.
 
-## License
-SPDX-License-Identifier: GPL-3.0-or-later
+    ## Upstream inspirations
+    - https://github.com/linuxmint/cinnamon-menus
+- https://github.com/linuxmint/mintmenu
 
-## Copyright
-Copyright (C) 2026 SigmaOS Project
+    ## Design principles applied
+    - **Abstraction**
+- **Least Astonishment**
+- **Fail-Fast**
+- **KISS**
+- **DRY**
+- **Deterministic Testing**
+
+    ## Usage
+    Verbs: `categories, search, edit-entry, rebuild`
+
+    ```
+    $ sigma-menus categories
+$ sigma-menus search fire
+$ sigma-menus edit-entry firefox --name "Firefox Web Browser"
+$ sigma-menus rebuild
+
+    ```
+
+    ## Build & test
+    ```
+    make build
+    make test
+    ```
+
+    ## Licence
+    GNU General Public License v3.0 (FOSS).
