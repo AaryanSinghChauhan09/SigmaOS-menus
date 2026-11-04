@@ -1,10 +1,10 @@
 [package]
-name = "sigmaos-component"
+name = "sigmaos-desktop-component"
 version = "0.1.0"
 edition = "2021"
 authors = ["SigmaOS Team"]
 license = "MIT OR Apache-2.0"
-description = "SigmaOS component following engineering principles"
+description = "SigmaOS desktop component with sophisticated implementation"
 
 [dependencies]
 anyhow = "1.0"
