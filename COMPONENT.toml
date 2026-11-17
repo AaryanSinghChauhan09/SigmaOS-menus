@@ -1,6 +1,6 @@
 [component]
 name = "SigmaOS-menus"
-description = "SigmaOS subsystem component for menus"
+description = "Application menu & menu database"
 version = "0.1.0"
 tier = 4
 
