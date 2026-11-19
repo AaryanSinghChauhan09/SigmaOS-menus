@@ -7,3 +7,8 @@ tier = 4
 [capabilities]
 contract_version = "1.0.0"
 principles = ["DRY", "KISS", "SOLID", "Arrange-Act-Assert", "Pristine-Sources"]
+
+[maturity]
+status = "Implemented"
+test_evidence = "12 tests (10 unit + 2 integration) passing with cargo test --offline"
+next_milestone = "XDG directory scanning and .desktop file I/O"
